@@ -13,7 +13,7 @@ html{
 } */
 
 #Navbar {
-  width: 100vw;
+  width: 100%;
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -50,14 +50,14 @@ ul li {
 }
 .hero_part {
   width: 100%;
-  height: 100vh;
+  height: 55rem;
   display: flex;
 }
 .first {
   width: 50%;
-  height: 700px;
-  padding-left: 8%;
-  padding-top: 15%;
+  height: 55rem;
+  padding-left: 10rem;
+  padding-top: 18rem;
   /* margin-bottom:8%; */
 }
 .heading {
@@ -67,12 +67,14 @@ ul li {
 #element {
   color: rgba(255, 217, 0, 0.926);
 }
+
 #para {
   color: rgb(27, 27, 27);
   margin-top: 20px;
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: Arial;
+  width:90%;
 }
 
 #cvbtn {
@@ -123,11 +125,13 @@ ul li {
   transform: translate(20px, 20px);
   scale: 1.2;
 }
+
 #about {
   width: 100%;
   height: 100vh;
   display: flex;
 }
+
 .about1 {
   width: 40%;
   height: 100vh;
@@ -136,12 +140,13 @@ ul li {
 .about2 {
   width: 60%;
   height: 100vh;
-  padding: 10%;
+  padding-top: 5%;
+  padding-left: 2%;
 }
 
 #about_image {
   width: 100%;
-  height: 100vh;
+  height: 900px;
   background-image: url(./images/about_me.jpeg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -150,12 +155,11 @@ ul li {
 #heading_about {
   font-size: 4rem;
   color: rgb(41, 42, 42);
-  
-  
   /* text-underline-position: 10px; */
   /* padding-left:15px ;*/
 } 
 #para_about {
+  width:60rem;
   margin-top: 15px;
   font-size: 1.3rem;
   font-family: Helvetica;
@@ -183,6 +187,7 @@ ul li {
   left: 0;
   bottom: -8px;
   transition: 0.5s;
+
 }
 .tab_links.active_link::after {
   width: 60%;
@@ -191,21 +196,23 @@ ul li {
 .tab_contents ul li {
   display: block;
 }
+
 .tab_contents ul li span {
   color: rgba(255, 217, 0, 0.926);
   font-size: 20px;
   margin-left: 0;
   padding-inline-start: 0px;
-
 }
+
 .tab_contents {
   display: none;
   width:80%
-
 }
+
 .tab_contents.active_tab {
   display: block;
 }
+
 #tab_content_box{
 padding-left: 0%;
 margin-left: 0%;
@@ -218,8 +225,7 @@ margin-left: 0%;
     font-size: 4rem;
     font-weight: bolder;
     text-align: center;
-    text-decoration: underline;
-
+    /* text-decoration: underline; */
 }
 
 #projects {
@@ -234,6 +240,7 @@ margin-left: 0%;
     background-repeat: no-repeat; */
   /* background-color: ; */
 }
+
 .project_box {
   width: 500px;
   height: 500px;
@@ -244,12 +251,16 @@ margin-left: 0%;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0ms;
 }
+
+
 .project_box:hover {
   background-color: rgba(255, 217, 0, 0.926);
   transform: scale(1.05);
   color: rgb(53, 53, 53);
   box-shadow: none;
 }
+
+
 .projectbox_image {
   width: 99%;
   height: 60%;
@@ -257,12 +268,15 @@ margin-left: 0%;
   background-repeat: no-repeat;
   border-radius: 1rem;
 }
+
 #first_image {
   background-image: url(./images/Hackavenue.jpeg);
 }
+
 #second_image {
   background-image: url(./images/HackMait.jpeg);
 }
+
 #third_image {
   background-image: url(./images/FrontedFiesta.jpeg);
 }
@@ -272,23 +286,27 @@ margin-left: 0%;
   font-weight: 900;
   padding-top: 10px;
 }
+
 .heading_achievements:hover {
   color: white;
 }
+
 .para_achievements{
     font-size: large;
     font-weight: 550;
 }
+
 #contact_me {
   width: 100%;
   height: 700px;
   display:flex;
-
 }
+
 .contact_head{
     width:40%;
     height:700px;
 }
+
 #contact_image{
     width:100%;
     height:80%;
